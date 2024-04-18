@@ -29,7 +29,7 @@ const Sidebar = ({ className }) => {
       <FontAwesomeIcon
         icon={faBars}
         onClick={toggleSidebar}
-        className={`absolute top-40 md:top-16 left-4 cursor-pointer w-4 mr-4 lg:hidden block ${
+        className={`absolute top-5 left-4 cursor-pointer w-4 mr-4 lg:hidden block ${
           open ? "hidden" : "block"
         }`}
       />
@@ -38,7 +38,7 @@ const Sidebar = ({ className }) => {
       <FontAwesomeIcon
         icon={faTimes}
         onClick={toggleSidebar}
-        className={`absolute top-6 left-4 cursor-pointer z-50 ${
+        className={`absolute top-5 left-4 cursor-pointer z-50 ${
           open ? "block" : "hidden"
         }`}
       />
